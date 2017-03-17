@@ -8,6 +8,7 @@ The robot gets the information from surrounding area through mounted sensors on 
 <img  src = "https://github.com/akshitSingh07/Obstacle-Avoidance-Car/blob/master/Images/CAR%202.JPG" />
 
 <br>
+
 ## Working Principle:
 *The obstacle avoidance robotic vehicle uses ultrasonic sensors for its movements. A microcontroller of 8051 family is used to achieve the desired operation. The motors are connected through motor driver IC to microcontroller. The ultrasonic sensor is attached in front of the robot.*
 
@@ -22,11 +23,13 @@ The robot gets the information from surrounding area through mounted sensors on 
 2. Path detection (proximity sensor)
 3. Ultrasonic Sensor
 
-<br><br>
+<br>
+
 ## Applications of Obstacle Avoidance Robotic Vehicle:
 1. Especially military applications
 2. It can be used for city wars
 
-<br><br>
+<br>
+
 To see this robot in action click the link : 
 **_https://akshitSingh07.github.io/Obstacle-Avoidance-Car/_**
