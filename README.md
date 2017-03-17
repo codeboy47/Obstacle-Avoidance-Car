@@ -1,6 +1,6 @@
 # Obstacle-Avoidance-Robot-Car
 
-Introduction:
+# Introduction:
 The obstacle avoidance robotics is used for detecting obstacles and avoiding the collision. This is an autonomous robot. The design of obstacle avoidance robot requires the integration of many sensors according to their task.
 The robot gets the information from surrounding area through mounted sensors on the robot. Some sensing devices used for obstacle detection like bump sensor, infrared sensor, ultrasonic sensor etc. Ultrasonic sensor is most suitable for obstacle detection and it is of low cost and has high ranging capability.
 
