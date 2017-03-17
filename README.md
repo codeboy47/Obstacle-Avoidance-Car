@@ -5,7 +5,7 @@
 The robot gets the information from surrounding area through mounted sensors on the robot. Some sensing devices used for obstacle detection like bump sensor, infrared sensor, ultrasonic sensor etc. Ultrasonic sensor is most suitable for obstacle detection and it is of low cost and has high ranging capability.*
 
 <img width = "600" height = "1000" src = "https://github.com/akshitSingh07/Obstacle-Avoidance-Car/blob/master/Images/CAR%202.JPG" />
-<img width = "600" height = "1000" src = "https://github.com/akshitSingh07/Obstacle-Avoidance-Car/blob/master/Images/carCropped.JPG" />
+<img width = "1000" height = "600" src = "https://github.com/akshitSingh07/Obstacle-Avoidance-Car/blob/master/Images/carCropped.JPG" />
 
 
 <br><br>
