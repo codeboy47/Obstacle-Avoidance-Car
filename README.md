@@ -32,4 +32,4 @@ The robot gets the information from surrounding area through mounted sensors on 
 <br>
 
 To see this robot in action click the link : 
-**_https://akshitSingh07.github.io/Obstacle-Avoidance-Car/_**
+**_https://codeboy47.github.io/Obstacle-Avoidance-Car/_**
