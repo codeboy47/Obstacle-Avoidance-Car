@@ -28,14 +28,14 @@
         align-items: center;
       }
       #div {
-        margin-left: 50%;
+        margin-left: 50px;
         margin-top: 20px;
         width : 70%;
         font-size: 50px;
         color: #ffec00;
         text-shadow: -3px 0 blue, 0 3px blue, 0 -3px blue;
       }
-      
+
       #video1{
         margin-top: 70px;
         max-width: 55%;
@@ -55,8 +55,8 @@
         color: #fffe00;
         width : 80px;
         height : 35px;
-        
-      } 
+
+      }
       #pause{
         margin-left: 20px;
         margin-top: 50px;
@@ -68,11 +68,10 @@
         color: #fffe00;
         width : 80px;
         height : 35px;
-      
+
       }
-      
-      @media screen and (max-width: 700px) and (min-width: 100px){
-        
+
+      @media screen and (max-width: 700px) and (min-width: 100px){  
         #div{
             margin-left: -100px;
             margin-top: 20px;
@@ -111,7 +110,7 @@
     <input type="button" name = "button" id = "play" onclick = "startVideo()" value = "Play">
     <input type="button" name = "button" id = "pause" onclick = "stopVideo()" value = "Pause">
     </div>
-    
+
 
     <audio id = "audio1"
       volume="0.4"
@@ -119,15 +118,15 @@
     </audio>
 
   </div>
-  
+
     <script>
       window.onload = function(){
          //checking = setInterval("checking()",1);
           start = setInterval("f1()",1); // when window gets load call f1 after every 1 millisec
-          
+
       }
-        
-      var vid = document.getElementById("video1");     
+
+      var vid = document.getElementById("video1");
       var aud = document.getElementById("audio1");
 
       var checking  = function(){
@@ -148,13 +147,13 @@
         if(vid.currentTime > aud.currentTime){//if current time of video is greater than 0.1 second, play audio
           aud.play();
           startLeft();
-        } 
+        }
       }
 
       var f2 = function(){
         //aud.currentTime = vid.currentTime;
         if(vid.currentTime < aud.currentTime){ // if video is paused
-          aud.pause();  // audio also gets paused 
+          aud.pause();  // audio also gets paused
           endRight();
         }
       }
@@ -168,7 +167,7 @@
       function endRight(){
         clearInterval(end); // f2() calling will stop now call f1
         start = setInterval("f1()",1);
-      } 
+      }
 
     </script>
 
