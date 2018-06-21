@@ -71,12 +71,13 @@
 
       }
 
-      @media screen and (max-width: 700px) and (min-width: 100px){  
-        #div{
-            margin-left: -100px;
-            margin-top: 20px;
-            width : 30%;
-            font-size: 20px;
+      @media screen and (max-width: 700px) and (min-width: 100px){
+        .box{
+          flex-direction: column;
+        }
+        .box:nth-child(2) {
+          /*width: 500px;
+          height : 500px;*/
         }
         #video1{
           max-width: 100%;
